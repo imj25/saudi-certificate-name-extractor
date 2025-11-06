@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Output and temporary files
+*.zip
+*.pdf
+certificates/
+final_extracted_certificates/
+
