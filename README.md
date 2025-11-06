@@ -1,4 +1,4 @@
-# 🇸🇦 Saudi Certificate Name Extractor (Arabic OCR)
+# Saudi Certificate Name Extractor (Arabic OCR)
 
 This project extracts **Arabic student names** from official **Saudi Ministry of Education certificates (شهادات الطلاب)** and automatically saves each page as a **separate PDF** named after the detected student’s name.
 
@@ -45,10 +45,10 @@ final_extracted_certificates/
 If you need to fine-tune the extraction area (depending on your certificate layout),
 adjust these coordinates in the script or notebook:
 
-EXTRACTION_X = 440
-EXTRACTION_Y = 155
-EXTRACTION_WIDTH = 250
-EXTRACTION_HEIGHT = 20
+- EXTRACTION_X = 440
+- EXTRACTION_Y = 155
+- EXTRACTION_WIDTH = 250
+- EXTRACTION_HEIGHT = 20
 
 ## 🧠 Technologies Used
 - Python
@@ -64,3 +64,4 @@ This tool is built specifically for Saudi Ministry of Education student certific
 Layouts or formats from other entities may require coordinate adjustments.
 
 Works best with high-resolution, non-scanned PDFs for accurate OCR.
+
